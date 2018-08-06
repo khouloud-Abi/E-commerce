@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="css/yeux.css" rel="stylesheet" type="text/css" media="screen"/>
+<script src="js/javascript.js"> </script>
+</head>
+
+<body>
+
+<ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Maquillage</a>
+        <ul>
+            <li><a href="yeux.html">Yeux</a></li>
+            <li><a href="teint.html">Teint</a></li>
+            <li><a href="#">Ongles</a></li>
+            <li><a href="#">Lèvres</a></li>
+        </ul>
+    </li>
+    <li><a href="femme.html">Parfum</a>
+        <ul>
+            <li><a href="femme.html">Parfum Femme</a></li>
+            <li><a href="homme.html">Parfum Homme</a></li>
+            <li><a href="#">Parfum Enfant</a></li>
+        </ul>
+    </li>
+    <li><a href="tuto.html">Tutoriaux</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+<div class="Ecomerce">
+
+    <div class="product-title">
+      Maquillage Yeux 
+    </div>
+    <!-- Produit #1 Parfum -->
+    <div class="product-container">
+      <div class="icon">
+        <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+        <a href=""><i class="fa fa-close"></i></a>
+      </div>
+
+      <div class="img">
+        <img src="img/maq1.jpg" alt=""/>
+      </div>
+
+      <div class="description">
+        <span>Mascara soin & courbe spectaculaires</span><br>
+        <span>Dior</span><br>
+      </div>
+
+      <div class="unity-price"> 
+            <p> <span style="font-size: 26px;font-weight: bolder;">69 DT</span>
+                <span>au lieu de</span> 
+                <del style="color:red"><span style="color:rgb(63, 60, 60)">80DT</span></del>
+            </p>
+      </div>
+
+      <input type='number' id='quantite1' min="0" max="10" value='0' class='qty'/> 
+
+      <button class="ajout-button" onclick="somme1()">
+          <span style="color: white;">Ajouter Au Panier</span>
+      </button>
+      <h class="label" id=somme1></h>
+    </div>
+
+    <!-- Produit #2 Parfum-->
+    <div class="product-container">
+            <div class="icon">
+              <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+              <a href=""><i class="fa fa-close"></i></a>
+            </div>
+      
+            <div class="img">
+              <img src="img/maq2.jpg" alt=""/>
+            </div>
+      
+            <div class="description">
+              <span>Ombre à paupières</span>
+              <span>Clarins</span>
+            </div>
+      
+            <div class="unity-price"> 
+                  <p> <span style="font-size: 26px;font-weight: bolder;">40 DT</span>
+                      <span>au lieu de</span> 
+                      <del style="color:red"><span style="color:rgb(63, 60, 60)">50DT</span></del>
+                  </p>
+            </div>
+      
+            <input type='number' id='quantite2' min="0" max="10" value='0' class='qty'/> 
+      
+            <button class="ajout-button" onclick="somme2()">
+                <span style="color: white;">Ajouter Au Panier</span>
+              </button>
+              <h class="label" id=somme2></h>
+          </div>
+
+    <!-- Produit #3 Parfum-->
+    <div class="product-container">
+            <div class="icon">
+              <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+              <a href=""><i class="fa fa-close"></i></a>
+            </div>
+      
+            <div class="img">
+              <img src="img/maq3.jpg" alt=""/>
+            </div>
+      
+            <div class="description">
+              <span>Ombres 4 couleurs</span>
+              <span>Clarins</span>
+            </div>
+      
+            <div class="unity-price"> 
+                  <p> <span style="font-size: 26px;font-weight: bolder;">99 DT</span>
+                      <span>au lieu de</span> 
+                      <del style="color:red"><span style="color:rgb(63, 60, 60)">119 DT</span></del>
+                  </p>
+            </div>
+      
+            <input type='number' id='quantite3' min="0" max="10" value='0' class='qty'/> 
+      
+            <button class="ajout-button" onclick="somme3()">
+                    <span style="color: white;">Ajouter Au Panier</span>
+                  </button>
+                  <h class="label" id=somme3></h>
+    </div>
+
+        <!-- Produit #4 Parfum-->
+        <div class="product-container">
+                <div class="icon">
+                  <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+                  <a href=""><i class="fa fa-close"></i></a>
+                </div>
+          
+                <div class="img">
+                  <img src="img/maq4.jpg" alt=""/>
+                </div>
+          
+                <div class="description">
+                  <span>Eyeliner</span>
+                  <span>Yves Saint Laurent</span>
+                </div>
+          
+                <div class="unity-price"> 
+                      <p> <span style="font-size: 26px;font-weight: bolder;">89 DT</span>
+                          <span>au lieu de</span> 
+                          <del style="color:red"><span style="color:rgb(63, 60, 60)">99 DT</span></del>
+                      </p>
+                </div>
+          
+                <input type='number' id='quantite4' min="0" max="10" value='0' class='qty'/> 
+          
+                <button class="ajout-button" onclick="somme4()">
+                        <span style="color: white;">Ajouter Au Panier</span>
+                      </button>
+                      <h class="label" id=somme4></h>
+        </div>
+
+        <button class="affich-button"  onclick="somme()"
+        style="margin-top: 10px;width: 250px;height: 40px;background-color: rgb(202, 185, 185);">
+        Commander Achat</button>
+
+    </div>
+</body>
+</html>

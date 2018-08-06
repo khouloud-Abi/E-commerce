@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="css/yeux.css" rel="stylesheet" type="text/css" media="screen"/>
+<script src="js/javascript.js"> </script>
+</head>
+
+<body style="padding: 10px;
+margin: 0;
+background: url(img/20.jpg) no-repeat; 
+background-size: cover;">
+
+<ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Maquillage</a>
+      <ul>
+          <li><a href="yeux.html">Yeux</a></li>
+          <li><a href="teint.html">Teint</a></li>
+          <li><a href="#">Ongles</a></li>
+          <li><a href="#">Lèvres</a></li>
+      </ul>
+  </li>
+    <li><a href="femme.html">Parfum</a>
+        <ul>
+            <li><a href="femme.html">Parfum Femme</a></li>
+            <li><a href="homme.html">Parfum Homme</a></li>
+            <li><a href="#">Parfum Enfant</a></li>
+        </ul>
+    </li>
+    
+    <li><a href="tuto.html">Tutoriaux</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+<div class="Ecomerce" style=" margin-left: 50px;">
+
+    <div class="product-title">
+      Parfum Homme
+    </div>
+    <!-- Produit #1 Parfum -->
+    <div class="product-container">
+      <div class="icon">
+        <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+        <a href=""><i class="fa fa-close"></i></a>
+      </div>
+
+      <div class="img">
+        <img src="img/hom1.jpg" alt=""/>
+      </div>
+
+      <div class="description">
+        <span>HUGO BOSS</span><br>
+        <span>BOSS</span><br>
+      </div>
+
+      <div class="unity-price"> 
+            <p> <span style="font-size: 26px;font-weight: bolder;">110 DT</span>
+                <span>au lieu de</span> 
+                <del style="color:red"><span style="color:rgb(63, 60, 60)">160DT</span></del>
+            </p>
+      </div>
+
+      <input type='number' id='quantite1' min="0" max="10" value='0' class='qty'/> 
+
+      <button class="ajout-button" onclick="somme1()">
+          <span style="color: white;">Ajouter Au Panier</span>
+      </button>
+      <h class="label" id=somme1></h>
+    </div>
+
+    <!-- Produit #2 Parfum-->
+    <div class="product-container">
+            <div class="icon">
+              <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+              <a href=""><i class="fa fa-close"></i></a>
+            </div>
+      
+            <div class="img">
+              <img src="img/hom2.jpg" alt=""/>
+            </div>
+      
+            <div class="description">
+              <span> Gentleman New </span>
+              <span>GIVENCHY</span>
+              <span>150ml</span>
+            </div>
+      
+            <div class="unity-price"> 
+                  <p> <span style="font-size: 26px;font-weight: bolder;">149 DT</span>
+                      <span>au lieu de</span> 
+                      <del style="color:red"><span style="color:rgb(63, 60, 60)">200DT</span></del>
+                  </p>
+            </div>
+      
+            <input type='number' id='quantite2' min="0" max="10" value='0' class='qty'/> 
+      
+            <button class="ajout-button" onclick="somme2()">
+                <span style="color: white;">Ajouter Au Panier</span>
+              </button>
+              <h class="label" id=somme2></h>
+          </div>
+
+    <!-- Produit #3 Parfum-->
+    <div class="product-container">
+            <div class="icon">
+              <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+              <a href=""><i class="fa fa-close"></i></a>
+            </div>
+      
+            <div class="img">
+              <img src="img/hom3.jpg" alt=""/>
+            </div>
+      
+            <div class="description">
+              <span>Sauvage</span>
+              <span>Dior</span>
+              <span>120ml</span>
+            </div>
+      
+            <div class="unity-price"> 
+                  <p> <span style="font-size: 26px;font-weight: bolder;">300 DT</span>
+                      <span>au lieu de</span> 
+                      <del style="color:red"><span style="color:rgb(63, 60, 60)">369 DT</span></del>
+                  </p>
+            </div>
+      
+            <input type='number' id='quantite3' min="0" max="10" value='0' class='qty'/> 
+      
+            <button class="ajout-button" onclick="somme3()">
+                    <span style="color: white;">Ajouter Au Panier</span>
+                  </button>
+                  <h class="label" id=somme3></h>
+    </div>
+
+        <!-- Produit #4 Parfum-->
+        <div class="product-container">
+                <div class="icon">
+                  <a href=""><i class="fa fa-heart" style="margin-right: 10px;"></i></a>
+                  <a href=""><i class="fa fa-close"></i></a>
+                </div>
+          
+                <div class="img">
+                  <img src="img/hom4.jpg" alt=""/>
+                </div>
+          
+                <div class="description">
+                  <span>L'homme Idéal L'Intense</span>
+                  <span>GUERLAIN</span>
+                  <span>100ml</span>
+                </div>
+          
+                <div class="unity-price"> 
+                      <p> <span style="font-size: 26px;font-weight: bolder;">249 DT</span>
+                          <span>au lieu de</span> 
+                          <del style="color:red"><span style="color:rgb(63, 60, 60)">289 DT</span></del>
+                      </p>
+                </div>
+          
+                <input type='number' id='quantite4' min="0" max="10" value='0' class='qty'/> 
+          
+                <button class="ajout-button" onclick="somme4()">
+                        <span style="color: white;">Ajouter Au Panier</span>
+                      </button>
+                      <h class="label" id=somme4></h>
+        </div>
+
+        <button class="affich-button"  onclick="somme()"
+        style="margin-top: 10px;width: 250px;height: 40px;background-color: rgb(202, 185, 185);">
+        Commander Achat</button>
+
+    </div>
+</body>
+</html>
